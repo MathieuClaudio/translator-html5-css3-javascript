@@ -1,4 +1,4 @@
-# Traductor Inglés-Español (Versión Simple y POO)
+# Traductor Entre Diferentes Idiomas (Versión Simple y POO)
 
 Ejemplo aplicación web simple y educativa utilizando la API de **MyMemory Translation** para traducción gratuita entre varios lenguajes.
 
@@ -12,6 +12,7 @@ Ejemplo aplicación web simple y educativa utilizando la API de **MyMemory Trans
 - Interfaz de usuario limpia y responsiva utilizando el CDN de bootstrap@5.3.5
 - Soporte para modo oscuro manual 🌙
 - Alternar entre versión funcional y versión POO según necesidad
+- Se puede probar en [GitHub Pages](https://MathieuClaudio.github.io/translator-html5-css3-javascript/)
 
 ## 🚀 Comparativa: Versión Simple vs Versión POO
 | Aspecto                  | Versión Simple                        | Versión POO                                   |
