@@ -12,7 +12,8 @@ Ejemplo aplicación web simple y educativa utilizando la API de **MyMemory Trans
 - Interfaz de usuario limpia y responsiva utilizando el CDN de bootstrap@5.3.5
 - Soporte para modo oscuro manual 🌙
 - Alternar entre versión funcional y versión POO según necesidad
-- Se puede probar en [GitHub Pages](https://MathieuClaudio.github.io/translator-html5-css3-javascript/)
+- <a href="https://MathieuClaudio.github.io/translator-html5-css3-javascript/" target="_blank">🌐 Se puede probar en GitHub Pages</a>
+
 
 ## 🚀 Comparativa: Versión Simple vs Versión POO
 | Aspecto                  | Versión Simple                        | Versión POO                                   |
@@ -41,7 +42,7 @@ Ejemplo aplicación web simple y educativa utilizando la API de **MyMemory Trans
 2. Abre la carpeta del proyecto en tu editor de código preferido
 3. Inicia un servidor local (ej., Live Server en VS Code)
 4. Abre la aplicación en tu navegador web
-5. Probar proyecto desde el repositorio de GitHub (https://MathieuClaudio.github.io/translator-html5-css3-javascript/)
+5. <a href="https://MathieuClaudio.github.io/translator-html5-css3-javascript/" target="_blank">🌐 Ver demo en GitHub Pages</a>
 
 ## Cómo Usar
 1. Ingresa tu texto en inglés en el campo de entrada
