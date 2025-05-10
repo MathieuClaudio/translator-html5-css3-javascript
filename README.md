@@ -40,6 +40,7 @@ Ejemplo aplicación web simple y educativa utilizando la API de **MyMemory Trans
 2. Abre la carpeta del proyecto en tu editor de código preferido
 3. Inicia un servidor local (ej., Live Server en VS Code)
 4. Abre la aplicación en tu navegador web
+5. Probar proyecto desde el repositorio de GitHub (https://MathieuClaudio.github.io/translator-html5-css3-javascript/)
 
 ## Cómo Usar
 1. Ingresa tu texto en inglés en el campo de entrada
