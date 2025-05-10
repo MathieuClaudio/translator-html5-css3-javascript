@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "language": "Idioma"
+  },
+  "languages": {
+    "en": "Inglés",
+    "es": "Español",
+    "fr": "Francés",
+    "de": "Alemán",
+    "it": "Italiano"
+  },
+  "translator": {
+    "title": "Traductor de Texto",
+    "sourceLanguage": "Elije el Idioma de Origen",
+    "enterText": "Ingresa tu texto en",
+    "targetLanguage": "Elije el Idioma de Destino",
+    "translationTo": "Traducción al",
+    "translate": "Traducir",
+    "clear": "Limpiar",
+    "translating": "Traduciendo...",
+    "loading": "Cargando...",
+    "pleaseEnterText": "Por favor, ingresa un texto para traducir",
+    "translationError": "Error en la traducción. Por favor, inténtalo de nuevo."
+  },
+  "footer": {
+    "copyright": "Traductor de Texto. Sin derechos reservados."
+  }
+}

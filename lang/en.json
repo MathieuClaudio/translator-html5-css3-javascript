@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "Home",
+    "language": "Language"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "de": "German",
+    "it": "Italian"
+  },
+  "translator": {
+    "title": "Text Translator",
+    "sourceLanguage": "Select Source Language",
+    "targetLanguage": "Select Target Language",
+    "enterText": "Enter text in",
+    "translationTo": "Translation to",
+    "translate": "Translate",
+    "clear": "Clear",
+    "translating": "Translating...",
+    "loading": "Loading...",
+    "pleaseEnterText": "Please enter text to translate",
+    "translationError": "Translation error. Please try again."
+  },
+  "footer": {
+    "copyright": "Text Translator. No rights reserved."
+  }
+}

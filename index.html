@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html translate="no">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Translator - Bootstrap@5.3.5 and jQuery@3.6.0 (Javascript) plus API MyMemor</title>
+    <!-- Para indicar a Google y navegadores compatibles que no ofrezcan traducción -->
+    <meta name="google" content="notranslate" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+    <link rel="stylesheet" href="lang/dark-mode.css">
+</head>
+
+<body class="bg-light text-dark">
+    <div id="main" class="container mt-2">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./">
+                    <img src="images/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Language
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#" data-lang="en">English</a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="es">Spanish</a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="fr">French</a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="de">German</a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="it">Italian</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <button id="darkModeToggle" class="btn btn-outline-secondary ms-2">🌙 Dark Mode</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <h1>Text Translator</h1>
+
+        <div id="content">
+            <!-- Sección de idiomas y texto a traducir-->
+            <section id="languageSection">
+                <!-- Idiomas de origen -->
+                <div class="mb-1">
+                    <label for="souceLanguage" class="form-label">Select Source Language:</label>
+                    <select class="form-select" id="souceLanguage">
+                        <option value="en">English</option>
+                        <option value="es">Spanish</option>
+                        <option value="fr">French</option>
+                        <option value="de">German</option>
+                        <option value="it">Italian</option>
+                    </select>
+                </div>
+                <!-- Idiomas de destino -->
+                <div class="mb-1">
+                    <label for="targetLanguage" class="form-label">Select Target Language:</label>
+                    <select class="form-select" id="targetLanguage">
+                        <option value="es">Spanish</option>
+                        <option value="en">English</option>
+                        <option value="fr">French</option>
+                        <option value="de">German</option>
+                        <option value="it">Italian</option>
+                    </select>
+                </div>
+                <!-- Texto a traducir -->
+                <div class="mb-1">
+                    <label for="sourceText" class="form-label"><span id="enterText"></span> <span
+                            id="souceLanguageText"></span>:</label>
+                    <textarea class="form-control" id="sourceText" rows="3" spellcheck="true" translate="no"></textarea>
+                </div>
+                <!-- Acciones de traducción y limpieza -->
+                <button class="btn btn-primary mb-1" id="translationBtn">Translate</button>
+                <button class="btn btn-danger mb-1" id="clearBtn">Clear</button>
+            </section>
+
+            <!-- Sección de traducción -->
+            <section id="translationSection">
+                <div class="mb-1">
+                    <label for="targetText" class="form-label"><span id="translationTo"></span> <span
+                            id="targetLanguageText"></span>:</label>
+                    <p id="targetText" class="p-3 border rounded"></p>
+                </div>
+            </section>
+        </div>
+
+        <footer class="text-center">
+            <p>☺️ &copy; 2025 Text Translator. No rights reserved. ✅</p>
+        </footer>
+    </div>
+
+    <!-- Versión funcional-->
+    <!--script src="https://code.jquery.com/jquery-3.6.0.min.js"></script-->
+    <!--script src="script.js"></script-->
+
+    <!-- Versión POO-->
+    <script src="script-oop.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
+        </script>
+
+    <script src="dark-mode.js"></script>
+</body>
+
+</html>
